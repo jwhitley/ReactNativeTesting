@@ -12,7 +12,8 @@
   "devDependencies": {
     "babel-jest": "^9.0.1",
     "babel-preset-react-native": "^1.5.1",
-    "jest-cli": "^0.9.0"
+    "jest-cli": "^0.9.0",
+    "realm": "^0.10.0"
   },
   "jest": {
     "setupEnvScriptFile": "node_modules/react-native/jestSupport/env.js",
