@@ -4,22 +4,25 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test":  "jest"
+    "test": "jest"
   },
   "dependencies": {
     "react-native": "^0.21.0"
   },
   "devDependencies": {
+    "babel-jest": "^9.0.1",
+    "babel-preset-react-native": "^1.5.1",
     "jest-cli": "^0.9.0"
   },
   "jest": {
-    "scriptPreprocessor": "node_modules/react-native/jestSupport/preprocessor.js",
     "setupEnvScriptFile": "node_modules/react-native/jestSupport/env.js",
     "testPathIgnorePatterns": [
       "/node_modules/",
       "packager/react-packager/src/Activity/"
     ],
-    "testFileExtensions": [ "js" ],
+    "testFileExtensions": [
+      "js"
+    ],
     "unmockedModulePathPatterns": [
       "promise",
       "source-map"
