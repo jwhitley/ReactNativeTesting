@@ -10,9 +10,9 @@
     "react-native": "^0.21.0"
   },
   "devDependencies": {
-    "babel-jest": "^9.0.1",
+    "babel-jest": "^9.0.2",
     "babel-preset-react-native": "^1.5.1",
-    "jest-cli": "^0.9.0",
+    "jest-cli": "^0.9.1",
     "realm": "^0.10.0"
   },
   "jest": {
