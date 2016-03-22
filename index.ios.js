@@ -11,6 +11,8 @@ import React, {
   View
 } from 'react-native';
 
+import Realm from 'realm'
+
 class ReactNativeTesting extends Component {
   render() {
     return (
